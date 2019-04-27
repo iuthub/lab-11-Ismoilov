@@ -1,19 +1,36 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-	<head>
-		<title>Pimp My Text!</title>
-		<link href="pimpmytext.css" rel="stylesheet" type="text/css" />
-		<!-- link to your script file here -->
 
-	</head>
+<head>
+	<title>Pimp My Text!</title>
+	<link href="pimpmytext.css" rel="stylesheet" type="text/css" />
+	<!-- link to your script file here -->
 
-	<body>
-		<h1>Pimp My Text</h1>
-		<div>
-			<img src="geek.jpg" alt="Pimpin' it, geek!" />
-		</div>
+</head>
 
-		<!-- Your UI controls go here -->
+<body>
+	<h1>Pimp My Text</h1>
+	<div>
+		<img src="geek.jpg" alt="Pimpin' it, geek!" />
+	</div>
 
-	</body>
+	<!-- Your UI controls go here -->
+	<form>
+		<fieldset>
+			<legend>Text</legend>
+			<textarea rows="4" cols="30" id="pimp-text"></textarea>
+		</fieldset>
+		<fieldset>
+			<legend>Pimp it</legend>
+			<button type="button" id="pimpinIt">Bigger Pimpin!</button>
+			<br>
+			<input type="checkbox" id="check">Bling
+			<br>
+			<button type="button" id="snoop">Snoopifying</button>
+		</fieldset>
+	</form>
+
+<script src="pimpmytext.js"></script>
+</body>
+
 </html>
